@@ -6,61 +6,63 @@ body {
 * {
 	box-sizing: border-box;
 }
-.row {
+.section-wrapper {
 	width: 100%;
 }
-.container-box {
-	color: #696969;
-	border: 1px solid #000000;
+.section {
+	color: #000000;
+	background-color: #c7c7c7;
 	text-align: left;
-	margin: 3px;
-	padding: 10px;
+	border: 2px solid #000000;
 	overflow: auto;
+	margin: 20px 8px 20px 8px;
+	padding: 20px 10px 2px 10px;
 	position: relative;
 }
-p.section-title {
+.section-title {
 	color: #FFFFFF;
-	border: 1px solid #000000;
+	border-width: 0 0 2px 2px;
+	border-style: solid; 
+	border-color: #000000;
 	text-align: center;
 	font-size: 20px;
 	margin: 0px;
-	padding: 5px 30px 5px 30px;
+	padding: 5px 50px 5px 50px;
 	position: absolute;
 	top: 0px;
 	right: 0px;
 }
-p#Annie {
+div#Annie {
 	background-color: #800000;
 }
-p#Boris {
+div#Boris {
 	background-color: #000080;
 }
-p#Candy {
+div#Candy {
 	background-color: #008000;
 }
 /** Desktop **/
 @media (min-width: 992px) {
 	.col-lg-4 {
-    float: left;
-    width: 33.33%;
-  }
+		float: left;
+		width: 33.33%;
+	}
 }
 /** Tablet **/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6, .col-md-12 {
-    float: left;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
 }
 /** Mobile Phone **/
 @media (max-width: 767px) {
- .col-sm-12 {
-    float: left;
-    width: 100%;
-  }
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
 }
