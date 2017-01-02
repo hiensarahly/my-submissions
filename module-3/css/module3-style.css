@@ -21,9 +21,6 @@ body {
   margin-top: 10px;
   background-color: #fff;
 }
-#nav-list a {
-  text-align: center;
-}
 #nav-list a:hover {
   background: #F0E68C;
 }
