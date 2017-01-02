@@ -1,0 +1,42 @@
+/** Base Styles **/
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Merriweather', serif, Arial, Helvetica, sans-serif;
+}
+/** Header **/
+#header-nav {
+  background-color: #B22222;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { /* Food LLC Brand Name*/
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .5;
+}
+#nav-list { /* Menu List */
+  margin-top: 10px;
+  background-color: #fff;
+}
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #F0E68C;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle:hover {
+  opacity: .5;
+}
+/** Main Content **/
+.main-content-wrapper {
+  border: .5px solid #B22222;
+  background-color: #F0E68C;
+  padding: 8px;
+}
